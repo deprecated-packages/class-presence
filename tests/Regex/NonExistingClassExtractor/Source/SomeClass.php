@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Migrify\ClassPresence\Tests\Regex\NonExistingClassExtractor\Source;
+namespace Symplify\ClassPresence\Tests\Regex\NonExistingClassExtractor\Source;
 
 final class SomeClass
 {

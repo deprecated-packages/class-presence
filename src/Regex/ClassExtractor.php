@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Migrify\ClassPresence\Regex;
+namespace Symplify\ClassPresence\Regex;
 
 use Nette\Neon\Encoder;
 use Nette\Neon\Neon;

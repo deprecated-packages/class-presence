@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Migrify\ClassPresence\Tests\Regex\NonExistingClassConstantExtractor\Source;
+namespace Symplify\ClassPresence\Tests\Regex\NonExistingClassConstantExtractor\Source;
 
 final class ClassWithConstants
 {

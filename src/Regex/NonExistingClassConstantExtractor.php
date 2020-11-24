@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Migrify\ClassPresence\Regex;
+namespace Symplify\ClassPresence\Regex;
 
 use Nette\Utils\Strings;
 use Symplify\SmartFileSystem\SmartFileInfo;
 
 /**
- * @see \Migrify\ClassPresence\Tests\Regex\NonExistingClassConstantExtractor\NonExistingClassConstantExtractorTest
+ * @see \Symplify\ClassPresence\Tests\Regex\NonExistingClassConstantExtractor\NonExistingClassConstantExtractorTest
  */
 final class NonExistingClassConstantExtractor
 {

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Migrify\ClassPresence\Tests\Regex\NonExistingClassConstantExtractor;
+namespace Symplify\ClassPresence\Tests\Regex\NonExistingClassConstantExtractor;
 
 use Iterator;
-use Migrify\ClassPresence\HttpKernel\ClassPresenceKernel;
-use Migrify\ClassPresence\Regex\NonExistingClassConstantExtractor;
+use Symplify\ClassPresence\HttpKernel\ClassPresenceKernel;
+use Symplify\ClassPresence\Regex\NonExistingClassConstantExtractor;
 use Symplify\PackageBuilder\Testing\AbstractKernelTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

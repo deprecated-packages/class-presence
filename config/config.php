@@ -12,6 +12,6 @@ return static function (ContainerConfigurator $containerConfigurator): void {
         ->autowire()
         ->autoconfigure();
 
-    $services->load('Migrify\ClassPresence\\', __DIR__ . '/../src')
+    $services->load('Symplify\ClassPresence\\', __DIR__ . '/../src')
         ->exclude([__DIR__ . '/../src/HttpKernel']);
 };

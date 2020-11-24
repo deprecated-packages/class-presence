@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Migrify\ClassPresence\HttpKernel;
+namespace Symplify\ClassPresence\HttpKernel;
 
-use Migrify\MigrifyKernel\HttpKernel\AbstractMigrifyKernel;
 use Symfony\Component\Config\Loader\LoaderInterface;
+use Symplify\SymplifyKernel\HttpKernel\AbstractSymplifyKernel;
 
-final class ClassPresenceKernel extends AbstractMigrifyKernel
+final class ClassPresenceKernel extends AbstractSymplifyKernel
 {
     public function registerContainerConfiguration(LoaderInterface $loader): void
     {

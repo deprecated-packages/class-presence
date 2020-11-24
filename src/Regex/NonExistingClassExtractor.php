@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Migrify\ClassPresence\Regex;
+namespace Symplify\ClassPresence\Regex;
 
 use Symplify\SmartFileSystem\SmartFileInfo;
 
 /**
- * @see \Migrify\ClassPresence\Tests\Regex\NonExistingClassExtractor\NonExistingClassExtractorTest
+ * @see \Symplify\ClassPresence\Tests\Regex\NonExistingClassExtractor\NonExistingClassExtractorTest
  */
 final class NonExistingClassExtractor
 {

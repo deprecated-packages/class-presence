@@ -1,5 +1,5 @@
 {
-    "name": "migrify/class-presence",
+    "name": "symplify/class-presence",
     "description": "Check NEON/YAML/TWIG/LATTE files for existing and missing classes",
     "license": "MIT",
     "bin": [
@@ -7,25 +7,25 @@
     ],
     "require": {
         "php": ">=7.2",
-        "symfony/dependency-injection": "^4.4|^5.1",
+        "symfony/dependency-injection": "^5.1",
         "symfony/console": "^4.4|^5.1",
         "symfony/http-kernel": "^4.4|^5.1",
         "symfony/yaml": "^4.4|^5.1",
-        "nette/utils": "^3.1",
-        "nette/neon": "^3.0",
-        "migrify/migrify-kernel": "^0.5"
+        "nette/utils": "^3.0",
+        "nette/neon": "^3.2",
+        "symplify/symplify-kernel": "^9.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.5|^9.4"
     },
     "autoload": {
         "psr-4": {
-            "Migrify\\ClassPresence\\": "src"
+            "Symplify\\ClassPresence\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Migrify\\ClassPresence\\Tests\\": "tests"
+            "Symplify\\ClassPresence\\Tests\\": "tests"
         }
     },
     "minimum-stability": "dev",

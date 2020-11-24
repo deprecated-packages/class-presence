@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Migrify\ClassPresence\Configuration;
+namespace Symplify\ClassPresence\Configuration;
 
 final class Suffixes
 {
